@@ -3,7 +3,7 @@ name: Deploy to Heroku
 on:
   push:
     branches:
-      - main # or the branch you want to trigger deployment from
+      - master # or the branch you want to trigger deployment from
 jobs:
   deploy:
     runs-on: ubuntu-latest
